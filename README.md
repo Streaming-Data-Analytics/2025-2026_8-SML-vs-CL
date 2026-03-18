@@ -1,11 +1,3 @@
-Certamente! Questo è un progetto eccellente, molto ben definito e perfetto per far toccare con mano agli studenti le differenze tra SML (Streaming Machine Learning) e CL (Continual Learning), introducendoli al paradigma SCL (Streaming Continual Learning). 
-
-Avendo a disposizione il paper originale, ho estratto i dettagli implementativi cruciali (come la pre-elaborazione delle immagini MNIST tramite UMAP a 30 componenti e la dimensione della rolling window per la valutazione prequenziale) per assicurarmi che gli studenti abbiano tutte le specifiche per riprodurre fedelmente l'esperimento.
-
-Ecco la struttura del README in formato Markdown, scritta in inglese per mantenere la coerenza con il materiale del corso:
-
-***
-
 # 2025/2026: (8) Reproducing "A Practical Guide to Streaming Continual Learning" in CapyMOA
 
 Optional project of the [Streaming Data Analytics](https://emanueledellavalle.org/teaching/streaming-data-analytics-2025-26/) course provided by [Politecnico di Milano](https://www11.ceda.polimi.it/schedaincarico/schedaincarico/controller/scheda_pubblica/SchedaPublic.do?&evn_default=evento&c_classe=837284&__pj0=0&__pj1=36cd41e96fcd065c47b49d18e46e3110).
