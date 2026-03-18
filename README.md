@@ -41,7 +41,7 @@ You will implement and compare four different models across the two ecosystems:
 * **Experience Replay (ER):** A CL strategy that stores a small subset of past examples in a memory buffer and replays them to prevent forgetting. (Use **Avalanche**).
 * **A-GEM:** A CL strategy that constrains gradient updates using past examples to ensure new learning does not interfere with old knowledge. (Use **Avalanche**).
 
-**(Optional/Bonus: Integrate and evaluate additional SML and CL strategies available in the CapyMOA and Avalanche libraries).**
+**Integrate and evaluate additional SML and CL strategies available in the CapyMOA and Avalanche libraries.**
 
 ## **2. Evaluation Protocol**
 You must set up a dual-evaluation protocol to capture both rapid adaptation (SML focus) and knowledge retention (CL focus). Because the real drift scenarios contain imbalanced classes, you must use **Cohen's Kappa** as your primary metric.
@@ -68,7 +68,7 @@ For this project, you are required to refactor the original experimental setup a
 
 1. **Code Implementation**
    - Port all the River code to CapyMOA, ensuring seamless data flow between the stream generator and the CapyMOA ARF classifier.
-   - *Bonus* add new SML/CL models.
+   - Add new SML/CL models.
    
 2. **Prepare a Notebook / Presentation**
    - Demonstrate the execution of the experiments on both scenarios.
